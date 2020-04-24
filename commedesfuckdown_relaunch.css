@@ -1,0 +1,557 @@
+@font-face {
+			  font-family: 'LetterGothicStd';
+			  font-style: normal;
+			  font-weight: normal;
+			  src: local('LetterGothicStd'), url('http://toastycakes.com/tumblr/fonts/LetterGothicStd.otf') format('opentype');
+			}
+
+html {
+background-color: {color:Background};
+-webkit-font-smoothing: antialiased;
+}
+
+body {
+color: {color:Body Text};
+font-family: LetterGothicStd,'Helvetica Neue', "Arial", sans-serif;
+font-size: 12px;
+line-height:1.8em;
+text-rendering: optimizeLegibility;
+
+}
+
+h1, h2, h3, h4, h5 {
+font-family:'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+font-weight: 100;
+letter-spacing:.15em;
+text-shadow: 0 0 0 #fff;
+text-transform:uppercase;
+}
+
+h1 {
+font-size: 48px;
+line-height: 48px;
+}
+
+h2 {
+font-size: 24px;
+line-height: 38px;
+}
+
+h3 {
+font-size: 22px;
+line-height: 28px;
+}
+
+a:link, a:visited {
+color: #000;
+text-decoration: none;
+}
+
+a:hover, a:active {
+color: #AAA;
+text-decoration: none;
+}
+
+hr{
+border:0 #aaa solid;
+border-top-width:1px;
+clear:both;
+height:0;
+}
+
+ol{ list-style:decimal }
+
+ul{ 
+list-style:disc;
+margin-left:0px;
+}
+
+li{ margin-left:0px }
+
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{ margin: 0 0 15px 0;}
+
+.wrapper {
+max-width: 1280px;
+max-width:{select:Page Width}!important;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.header { 
+margin:0 auto;
+text-align:right;}
+
+
+.title {
+text-align: left;
+text-transform: uppercase;
+font-size: 44px;
+font-weight: 100;
+letter-spacing: 10px;
+padding:80px 0 0 0;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+}
+
+.title a {
+color: #000;
+}
+
+.title a:hover, a:active {
+text-decoration: none;
+background-color:#000;
+color:#fff;
+}
+
+.description {
+text-align: left;
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+font-size:18px;
+padding: 24px 0 6px 0;
+}
+
+.nav { 
+padding-bottom: 20px;
+padding-top: 0px;
+text-align: left;
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 300;
+font-family: proxima-nova,'Roboto','Lato','Century Gothic',LetterGothicStd, 'Helvetica Neue', "Arial", sans-serif;
+}
+
+.nav a:hover, a:active {
+text-decoration: none;
+background-color:#FF369B;
+color:#000;
+}
+
+.nav li {
+margin-right: 10px;
+display: inline;
+}
+
+
+.hotline {background-color: #00F;color:#000;}
+
+.categories { 
+padding-bottom: 20px;
+padding-top: 20px;
+text-align: center;
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 300;
+border-top: 0px solid {color:Dividers};
+border-bottom: 0px solid {color:Dividers};
+font-family: 'Roboto','Lato', 'Helvetica Neue', "Arial", sans-serif;
+}
+
+.categories a:hover, a:active {
+text-decoration: none;
+background-color:#000;
+color:#FFF;
+}
+
+.categories li {
+margin: 10px;
+display: inline;
+}
+
+.posts {
+padding-top: 80px;
+max-width: 1280px;
+}
+
+iframe {
+max-width: 100%;
+}
+
+.header-posts {
+padding: 0 60px 20px 60px;
+}
+
+.meta {
+display: block;
+line-height:1em;
+font-weight:300;
+font-family: LetterGothicStd,'Roboto', 'Helvetica Neue', "Arial", sans-serif;
+padding-bottom:10px;
+margin-top: 0px;
+font-size:10px;
+text-transform: none;
+}
+
+.meta a {
+color:#000;
+}
+
+.meta a:hover, .meta a:active, .meta a.active:link, .meta a.active:visited {
+text-decoration: none;
+background-color:#000;
+color:#FFF;
+}
+
+.date {
+margin-right: 0px;
+}
+
+.quote {
+font-size: 30px;
+font-family: 'Merriweather', serif;
+letter-spacing: -1px;
+line-height: 1.2em;
+padding-bottom: 10px;
+}
+
+blockquote {
+margin-left: 20px;
+padding-left: 15px;
+border-left: 0px {color:Body Text} solid;
+}
+
+.caption blockquote {display:none;}
+.photoCaption blockquote {display:none;}
+
+.chat {
+list-style: none;
+padding: 0;
+}
+
+.tags {
+margin-top: 10px;
+}
+
+.tags a {
+color: {color:Meta};
+}
+
+.tags ul {
+list-style-type: none;
+display:inline;
+margin: 0;
+padding: 0;
+}
+
+.tags li {
+margin: 0;
+padding-right: 10px;
+display:inline;
+}
+
+.footer {
+text-align: center;
+padding-bottom: 25px;
+padding-top: 40px;
+}
+
+.notes {
+border-bottom: 0px solid {color:Dividers};
+list-style: none;
+padding: 20px 0 50px 0;
+margin: 30px 0 0 0;
+line-height: 2.2em;
+}
+
+.notes li {
+margin: 0;
+}
+
+.notes .avatar {
+margin: 0 5px 0 0;
+position: relative;
+top: 5px;
+}
+
+.notes blockquote {
+margin: 10px 0 0 35px;
+padding-left: 10px;
+border-left: 2px solid {color:Body Text};
+}
+
+
+.media {
+margin-bottom: 20px;
+}
+
+.posts img {
+ width: 100%;
+ max-width: 1280px;
+}
+
+.pagination {
+margin-top:20px;
+text-align: right;
+font-size:32pt;
+font-family:"Bodoni MT", Didot, "Didot LT STD", LetterGothicStd, raleway_thin, "helvetica neue",helvetica,"Trebuchet MS",Trebuchet,Verdana,Sans-serif;
+text-transform:UPPERCASE;
+font-weight: 200;
+letter-spacing:.05em;
+}
+
+.pagination ul {
+list-style: none;
+padding: 10px 15px;
+margin: 2pinkpink0px 0;
+}
+
+.pagination li {
+margin: 0 2px 0 2px;
+display: inline;
+}
+
+.pagination a:link, .pageNav a:visited {
+margin:0;
+padding-top:8px;
+padding-right:10px;
+padding-bottom:15px;
+text-decoration: none;
+color:#000;
+}
+
+.pagination a:hover, .pagination a:active, .pagination a.active:link, .pagination a.active:visited {
+text-decoration: none;
+background-color:#000;
+color:#fff;
+}
+
+#older:after {
+content: " »";
+}
+
+#newer:before {
+content: "« ";
+}
+
+.leftnotes {
+ float: left;
+ text-align: left;
+ margin-right:8px;
+}
+
+.datenotes {
+ float: right;
+ text-align:right;
+ margin-left:8px;
+}
+
+.invisibilia {display:none;}
+
+.like-button {
+ display: inline-block;
+ float: right;
+ padding: 0px 0 0 10px;
+}
+
+.reblog-button {
+ display: inline-block;
+ float: right;
+ padding: 0px 0 0 0;
+}
+
+#install-btn {
+ position:fixed;
+ bottom: 0px;
+ right:6px
+}
+
+.animated {
+-webkit-animation-fill-mode: both;
+-moz-animation-fill-mode: both;
+-ms-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ms-animation-duration: 1s;
+-o-animation-duration: 1s;
+animation-duration: 1s;
+}
+
+.animated.hinge {
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ms-animation-duration: 1s;
+-o-animation-duration: 1s;
+animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translateY(-20px);
+}
+
+100% {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+}
+}
+
+@-moz-keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-moz-transform: translateY(-20px);
+}
+
+100% {
+	opacity: 1;
+	-moz-transform: translateY(0);
+}
+}
+
+@-o-keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-o-transform: translateY(-20px);
+}
+
+100% {
+	opacity: 1;
+	-o-transform: translateY(0);
+}
+}
+
+@keyframes fadeInDown {
+0% {
+	opacity: 0;
+	transform: translateY(-20px);
+}
+
+100% {
+	opacity: 1;
+	transform: translateY(0);
+}
+}
+
+.fadeInDown {
+-webkit-animation-name: fadeInDown;
+-moz-animation-name: fadeInDown;
+-o-animation-name: fadeInDown;
+animation-name: fadeInDown;
+}
+
+/* From old Commedesfuckdown
+----------------------------------------------- */
+
+.pink {color:#FF369B; text-transform:uppercase;}
+
+.caption a, .caption a:visited {text-decoration:underline; }
+
+q:before{}
+q:after{}
+q .short {}
+q .long {font-family:LetterGothicStd, nudista-web-1, nudista-web-2,raleway_thin,'Century Gothic','Helvetica Neue',Helvetica,"Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;}
+q .medium {}
+
+.post_nav {
+ margin:.25em 0 .5em;
+ font:Helvetica,"Helvetica Neue",Arial,"Trebuchet MS",Trebuchet,Verdana,Sans-serif; 
+ text-align:right;
+ font-weight:normal;
+ color:#AAA;
+ font-size:10px;
+ border-top:1px solid #DADADA;
+  }
+ .post_nav a { color:#AAA; padding: 1px 2px; }
+ .post_nav a:hover { color: #000; }
+
+/* Footer ----------------------------------------------- */
+#footer {
+  width:1080px;
+  padding-top:15px;	
+  padding-bottom:15px;		
+  text-align:right;
+  clear:both;
+  margin:0 auto;
+  }
+#footer hr {
+  display:none;
+  }
+#footer p {
+  margin:0;
+  padding-top:8px;
+  padding-right:10px;
+  padding-bottom:15px;
+  font-size:32pt;
+  font-family:"Bodoni MT", Didot, "Didot LT STD", LetterGothicStd, raleway_thin, "helvetica neue",helvetica,"Trebuchet MS",Trebuchet,Verdana,Sans-serif;
+  text-transform:UPPERCASE;
+  font-weight: 200;
+  letter-spacing:.05em;
+  }
+
+#footer a, #footer a:visited {text-decoration:  none; color:#444}
+
+#footer a:hover {text-decoration:  none;}
+
+/* End Footer */
+
+
+			/* Notes - ALL FROM matthewbuchanan.name - Awesome notes plugin! */
+
+			.ignore-notes-button {
+				display: none;
+				background: none;
+				padding: 0.25em 0 0.25em 0px;
+				margin-left: 6px;
+			}
+
+			.notes-button {
+				display: none;
+				background: none;
+				padding: 0.25em 0 0.25em 0px;
+				margin-left: 6px;
+			}
+
+			 .fave {
+				background:none;
+			}
+
+			.notes-container {
+				display: none;
+				margin: .5em 0;
+				padding: 0.75em 1em;
+				border: 1px solid #d8d8df;
+				background-color: #FCFCFC;
+				font: normal 77% "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+			}
+
+			.notes-container .avatar {
+				display: none;
+			}
+
+			.notes-container ol {
+				margin-bottom: 0.75em;
+			}
+
+			.notes-container li {
+				border-bottom: 1px solid #d8d8df;
+				padding: 0.75em 0;
+			}
+
+			.notes-container li.tumblelog_matthewb, .notes-container li.radar {
+				background-color: #fff;
+				margin: -1px -1em 0 -1em;
+				padding: 0.75em 1em;
+				border-top: 1px solid #d8d8df;
+			}
+
+			.notes-container blockquote {
+				margin-top: 0.5em;
+				padding-left: 1em;
+				font-size: 1.2em;
+				border-left: 5px solid #d8d8df;
+			}
+
+			.notes-container blockquote a:link, .notes-container blockquote a:visited {
+				color: #889;
+			}
+
+			.notes-container blockquote a:hover, .notes-container blockquote a:active {
+				color: #556;
+			}
+
+			.notes-hide {
+				cursor: pointer;
+				padding: 4px 0 4px 12px;
+				background: url("http://toastycakes.com/tumblr/hide-notes.png") no-repeat 0 50%;
+			}
+
