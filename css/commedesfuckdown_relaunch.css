@@ -2,7 +2,7 @@
 			  font-family: 'LetterGothicStd';
 			  font-style: normal;
 			  font-weight: normal;
-			  src: local('LetterGothicStd'), url('http://toastycakes.com/tumblr/fonts/LetterGothicStd.otf') format('opentype');
+			  src: local('LetterGothicStd'), url('http://http://toastycakes.github.io/assets/LetterGothicStd.otf') format('opentype');
 			}
 
 html {
@@ -552,6 +552,6 @@ q .medium {}
 			.notes-hide {
 				cursor: pointer;
 				padding: 4px 0 4px 12px;
-				background: url("http://toastycakes.com/tumblr/hide-notes.png") no-repeat 0 50%;
+				background: none no-repeat 0 50%;
 			}
 
